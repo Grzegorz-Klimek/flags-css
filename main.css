@@ -1,0 +1,105 @@
+body {
+	background: #fcfcfc;
+}
+
+.flag {
+	display: flex;
+	width: 300px;
+	height: 160px;
+	margin: 20px auto;
+	box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.18), 5px 6px 6px rgba(0, 0, 0, 0.20);
+}
+
+.flag__japan {
+	background: white;
+	align-items: center;
+	justify-content: center;
+}
+
+.flag__japan__circle {
+	display: flex;
+	width: 100px;
+	height: 100px;
+	background: #BC002D;
+	border-radius: 100%;
+}
+
+.flag__czechrepublic {
+	background: #fff;
+	flex-direction: column;
+	position: relative;
+}
+
+.flag__czechrepublic__stripe {
+	display: flex;
+	height: 50%;
+	width: 100%;
+}
+
+.flag__czechrepublic__stripe--red {
+	background: #D80C13;
+}
+
+.flag__czechrepublic__triangle {
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 80px 0 80px 130px;
+	border-color: transparent transparent transparent #09437F;
+}
+
+.flag__micronesia {
+	position: relative;
+	background: #75B2DD;
+}
+
+.flag__micronesia__star {
+	position: absolute;
+}
+
+.flag__micronesia__star--top {
+	top: 28px;
+	left: 130px;
+}
+.flag__micronesia__star--left {
+	top: 82px;
+	left: 85px;
+	transform: rotate(-20deg);
+}
+.flag__micronesia__star--right {
+	top: 72px;
+	right: 120px;
+	transform: rotate(20deg);
+}
+.flag__micronesia__star--bottom {
+	bottom: 28px;
+	left: 165px;
+	transform: rotate(180deg);
+}
+
+.flag__micronesia__star--triangle {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 12px 17px 0 17px;
+	border-color: #fff transparent transparent transparent;
+}
+.flag__micronesia__star--triangle2 {
+	transform: rotate(-70deg);
+}
+
+.flag__micronesia__star--triangle3 {
+	transform: rotate(70deg);
+}
+
+p {
+	text-align: center;
+	padding: 10px 0;
+	font-weight: 500;
+	color: #a9a9a9;
+	font-size: .9em;
+	font-family: 'Roboto', sans-serif;
+}
